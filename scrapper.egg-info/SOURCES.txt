@@ -1,8 +1,0 @@
-setup.py
-scrapper/__init__.py
-scrapper.egg-info/PKG-INFO
-scrapper.egg-info/SOURCES.txt
-scrapper.egg-info/dependency_links.txt
-scrapper.egg-info/not-zip-safe
-scrapper.egg-info/requires.txt
-scrapper.egg-info/top_level.txt

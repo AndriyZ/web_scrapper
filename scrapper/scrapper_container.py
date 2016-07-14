@@ -24,7 +24,7 @@ class NewsPaperScrapper(Scrapper):
 
     def parse(self):
         '''
-        This method parses site_url and returns list with infora
+        This method parses site_url and returns list with information
         '''
         built_papers = []
         for site_url in self.site_urls:

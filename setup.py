@@ -1,15 +1,14 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-package_scrapper = {
-    'name': 'scrapper',
-    'version': '0.1',
-    'description': 'Web scrapper application',
-    'packages': find_packages(),
-    'author': 'Andriy Zadorozhnyi',
-    'install_requires': ['newspaper3k'],
 
-    # Always disable support for zip eggs
-    'zip_safe': False,
-}
+setup(name='web_scrapper',
+      description='Web scrapper application',
+      entry_points={
+        'console_scripts': [
+            'web_scrapper=cli:main']
+                    },
+      version='0.1',
+      author = 'Andriy Zadorozhnyi',
+      install_requires =['newspaper3k', 'pytz'],
+      )
 
-setup(**package_scrapper)
